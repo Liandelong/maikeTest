@@ -1,0 +1,82 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "Maike.AbpVueAdminDemo.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/Maike.AbpVueAdminDemo.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Maike.AbpVueAdminDemo.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Maike.AbpVueAdminDemo.Core/1.0.0": {
+      "type": "project",
+      "path": "../Maike.AbpVueAdminDemo.Core/Maike.AbpVueAdminDemo.Core.csproj",
+      "msbuildProject": "../Maike.AbpVueAdminDemo.Core/Maike.AbpVueAdminDemo.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v2.2": [
+      "Maike.AbpVueAdminDemo.Core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Liandelong\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Liandelong\\Desktop\\AbpVueAdminDemoApi\\src\\Maike.AbpVueAdminDemo.EntityFrameworkCore\\Maike.AbpVueAdminDemo.EntityFrameworkCore.csproj",
+      "projectName": "Maike.AbpVueAdminDemo.EntityFrameworkCore",
+      "projectPath": "C:\\Users\\Liandelong\\Desktop\\AbpVueAdminDemoApi\\src\\Maike.AbpVueAdminDemo.EntityFrameworkCore\\Maike.AbpVueAdminDemo.EntityFrameworkCore.csproj",
+      "packagesPath": "C:\\Users\\Liandelong\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Liandelong\\Desktop\\AbpVueAdminDemoApi\\src\\Maike.AbpVueAdminDemo.EntityFrameworkCore\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Liandelong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp2.2"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "projectReferences": {
+            "C:\\Users\\Liandelong\\Desktop\\AbpVueAdminDemoApi\\src\\Maike.AbpVueAdminDemo.Core\\Maike.AbpVueAdminDemo.Core.csproj": {
+              "projectPath": "C:\\Users\\Liandelong\\Desktop\\AbpVueAdminDemoApi\\src\\Maike.AbpVueAdminDemo.Core\\Maike.AbpVueAdminDemo.Core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp2.2": {
+        "imports": [
+          "portable-net45+win8+wp8+wpa81",
+          "net461"
+        ],
+        "assetTargetFallback": true,
+        "warn": true
+      }
+    }
+  }
+}
